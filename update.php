@@ -8,9 +8,7 @@ parse_str(file_get_contents('php://input'), $_DELETE);
 
 if($action=='DELETE'){
     foreach ($ratedata->currency as $currency){
-        if($currency->code == $cur){
-            
-        }
+       
     }
 
 }
